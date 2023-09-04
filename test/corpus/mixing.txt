@@ -1,0 +1,84 @@
+==================
+mixing
+==================
+
+~u1: speed 4.0 >> seq 72 74 76 >> sawsynth 0.1 0.1
+~u2: speed 4.0 >> seq 60 64 >> squsynth 0.5 0.1 >> mul ~mod
+
+~mod: sin 0.3 
+
+out: mix ~u.. >> mul 1
+
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+				(number)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+				(number)
+			)
+		)
+	)
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+				(number)
+			)
+			(node
+				(node_name)
+				(reference_pointer)
+			)
+		)
+	)
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(reference_pointer)
+			)
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

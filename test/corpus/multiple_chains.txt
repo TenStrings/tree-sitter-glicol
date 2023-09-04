@@ -1,0 +1,44 @@
+==================
+multi chain
+==================
+
+guitar1: speed 0.25 >> mul 0.15 
+
+guitar2: speed 0.25 
+	>> mul 0.15 
+
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

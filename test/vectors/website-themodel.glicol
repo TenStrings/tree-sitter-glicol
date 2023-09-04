@@ -1,0 +1,21 @@
+// ##setBPM(66)#
+
+~bd: speed 4.0 >> seq 60 >> bd 0.03
+
+~sn: speed 4.0 >> seq _ 60 >> sn 0.05 >> mul 0.5
+
+~hh: speed 16.0 >> seq 60 >> hh 0.03
+
+~basslow: speed 1.0
+>> seq 33 _33 36_33_ 36_33_ 28 _28 31_28_ 31
+>> sawsynth 0.01 0.2 >> lpf 500 1.0
+
+~lead: seq 64_60_ 57_60_ 64_60_ 64_65_ 64_59_ 55_59_ 64 62
+>> squsynth 0.01 0.2 >> lpf 800 1.0 >> mul 0.0
+// change the mul 0.0 to 0.7
+
+~bassmid: speed 1.0 
+>> seq 45 _45 48_45_ 48_45_ 40 _40 43_40_ 43
+>> mul 0.99 >> sawsynth 0.01 0.21 >> lpf 1000 1.0
+
+out: mix ~bd ~sn ~hh ~lead ~basslow ~bassmid >> plate 0.1

@@ -1,0 +1,19 @@
+{
+  "name": "tree-sitter-glicol",
+  "version": "1.0.0",
+  "description": "Treesitter grammar for the glicol live coding language.",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enzo Cioppettini <hi@enzocioppettini.com>",
+  "license": "MIT",
+  "tree-sitter": [
+    {
+      "scope": "source.glicol",
+      "file-types": [
+        "glicol"
+      ]
+    }
+  ]
+}

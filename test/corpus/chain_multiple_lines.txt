@@ -1,0 +1,41 @@
+==================
+chain line break
+==================
+
+chain: speed 0.25 
+	>> seq 60 _ 69 _ 
+	>> sp \guitar 
+	>> mul 0.15 
+
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+				(beat_pattern)
+				(number)
+				(beat_pattern)
+			)
+			(node
+				(node_name)
+				(symbol)
+			)
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

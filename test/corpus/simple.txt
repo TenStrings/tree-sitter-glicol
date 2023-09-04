@@ -1,0 +1,21 @@
+==================
+simple
+==================
+ref: mul 0.5
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

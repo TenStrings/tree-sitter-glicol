@@ -1,0 +1,37 @@
+==================
+seq choice reference
+==================
+~chain1: seq _60 _60 ~a 60;
+~chain2: seq _60 _60 ~a 60;
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(beat_pattern)
+				(beat_pattern)
+				(reference_pointer)
+				(number)
+			)
+		)
+	)
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(beat_pattern)
+				(beat_pattern)
+				(reference_pointer)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

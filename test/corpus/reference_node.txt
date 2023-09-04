@@ -1,0 +1,27 @@
+==================
+reference node
+==================
+
+~amp: ~gate >> envperc 0.001 0.1;
+
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(reference_pointer)
+			)
+			(node
+				(node_name)
+				(number)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

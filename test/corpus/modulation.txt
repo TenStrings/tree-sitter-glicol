@@ -1,0 +1,24 @@
+==================
+modulation
+==================
+
+~chain: lpf ~pitch 5.0
+
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(reference_pointer)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

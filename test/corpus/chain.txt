@@ -1,0 +1,40 @@
+==================
+chain
+==================
+
+// g: speed 0.25 >> seq 60 _ _ 69 _ _ 69 _ _ 67 _ 67 >> sp \guitar >> mul 0.15 
+guitar: speed 0.25 >> seq 60 _ 69 _ >> sp \guitar >> mul 0.15 
+
+---
+
+(document
+	(comment)
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(number)
+			)
+			(node
+				(node_name)
+				(number)
+				(beat_pattern)
+				(number)
+				(beat_pattern)
+			)
+			(node
+				(node_name)
+				(symbol)
+			)
+			(node
+				(node_name)
+				(number)
+			)
+		)
+	)
+)
+				
+				
+
+

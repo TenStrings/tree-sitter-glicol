@@ -1,0 +1,27 @@
+==================
+meta
+==================
+
+~lead: meta `
+    output = input.map(|x|x*0.1);
+    output
+`
+
+
+---
+
+(document
+	(line
+		(reference)
+		(chain 
+			(node
+				(node_name)
+				(rhai_code)
+			)
+		)
+	)
+)
+				
+				
+
+
